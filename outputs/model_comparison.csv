@@ -1,0 +1,4 @@
+Model,Accuracy,Macro_F1
+Hist Gradient Boosting,0.69197,0.6823653491332259
+Random Forest,0.68437,0.6793779603935057
+Logistic Regression,0.65712,0.6507048099281477
