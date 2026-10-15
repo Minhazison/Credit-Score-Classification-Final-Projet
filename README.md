@@ -72,7 +72,7 @@ Each customer appears in many rows. A random row-wise split would put the same p
 
 1. Clone the repository
    ```bash
-   git clone https://github.com/<your-username>/<your-repo>.git
+   git clone https://github.com/Minhazison/Credit-Score-Classification-Final-Projet.git
    cd <your-repo>
    ```
 2. Install the requirements
