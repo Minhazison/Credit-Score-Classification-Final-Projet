@@ -166,11 +166,11 @@ if bundle is None:
     )
     st.stop()
 
-st.success("✅  Model loaded successfully")
+st.success(" Model loaded successfully")
 
 # ── Sidebar: input form ───────────────────────────────────────────────────────
 with st.sidebar:
-    st.header("📋 Customer Information")
+    st.header(" Customer Information")
 
     occupation_options = [
         "Scientist", "Teacher", "Engineer", "Entrepreneur", "Developer",
@@ -275,7 +275,7 @@ with col2:
         with st.spinner("Running ensemble prediction…"):
             label, proba_dict = predict(row, bundle)
 
-        st.subheader("🎯 Prediction Result")
+        st.subheader(" Prediction Result")
         st.markdown(score_badge(label), unsafe_allow_html=True)
         st.markdown("")
 
@@ -300,7 +300,7 @@ with col2:
         for lbl, p in proba_dict.items():
             st.progress(p, text=f"{lbl}: {p*100:.1f}%")
     else:
-        st.info("👈  Fill in the form on the left and click **Predict Credit Score**")
+        st.info("  Fill in the form on the left and click **Predict Credit Score**")
 
 # ── Footer ────────────────────────────────────────────────────────────────────
 st.markdown("---")
